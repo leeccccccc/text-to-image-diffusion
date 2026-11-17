@@ -1,0 +1,17 @@
+# Tested with Python 3.13.7 on Windows 11, NVIDIA RTX 5060 (CUDA 12.8).
+# Install PyTorch first with the build matching your GPU/CPU, e.g.:
+#   pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+torchvision==0.26.0
+transformers==5.23.0
+datasets==5.2.0
+huggingface_hub==2.4.0
+numpy==2.5.4
+pandas==3.1.1
+pillow==13.0.0
+matplotlib==3.11.2
+tqdm==4.70.1
+jupyter==1.1.1
+nbconvert==7.17.2
+nbformat==5.11.1
+ipykernel==7.4.0

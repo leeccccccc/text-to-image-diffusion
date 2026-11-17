@@ -1,0 +1,26 @@
+{
+  "mode": "OFFICIAL",
+  "dataset": "nlphuji/flickr30k@refs/convert/parquet",
+  "images_per_split": {
+    "test": 90,
+    "train": 720,
+    "val": 90
+  },
+  "pairs_per_split": {
+    "test": 450,
+    "train": 3600,
+    "val": 450
+  },
+  "total_pairs": 4500,
+  "clip_model": "openai/clip-vit-base-patch32",
+  "embedding_dim": 512,
+  "tokenizer": "gpt2",
+  "max_len": 40,
+  "versions": {
+    "python": "3.13.7",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.23.0",
+    "datasets": "5.2.0"
+  },
+  "device": "NVIDIA GeForce RTX 5060"
+}
